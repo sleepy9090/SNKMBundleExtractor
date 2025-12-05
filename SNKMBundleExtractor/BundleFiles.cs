@@ -1,8 +1,11 @@
-﻿/*
- * Bundle class for storing the file structure for the PList files.
- * 
- * 
- * 
+﻿/**
+ *  File           BundleFiles.cs
+ *  Brief          Bundle class for storing the file structure for the PList files.
+ *  Copyright      2025 Shawn M. Crawford [sleepy]
+ *  Date           12/03/2025
+ *
+ *  Author         Shawn M. Crawford [sleepy]
+ *
  */
 using System.Text;
 
@@ -46,10 +49,7 @@ namespace SNKMBundleExtractor
         public string MinimalToString()
         {
             StringBuilder sb = new StringBuilder();
-            //sb.AppendLine("  Bundle Name: " + BundleName);
             sb.AppendLine("  File Name  : " + Filename);
-            //sb.AppendLine("  Offset     : " + Offset);
-            //sb.AppendLine("  Size       : " + Size);
 
             return sb.ToString();
         }

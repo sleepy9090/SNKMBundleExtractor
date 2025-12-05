@@ -1,8 +1,11 @@
-﻿/*
- * Form/Main Class for extracting mbundle file content used for the game SNK 40th Anniversary Collection (setup_snk_40th_anniversary_collection_1016_(64bit)_(45677))
- * 
- * 
- * 
+﻿/**
+ *  File           Form1.cs
+ *  Brief          Class for extracting mbundle file content used for the game SNK 40th Anniversary Collection (setup_snk_40th_anniversary_collection_1016_(64bit)_(45677).exe)
+ *  Copyright      2025 Shawn M. Crawford [sleepy]
+ *  Date           12/03/2025
+ *
+ *  Author         Shawn M. Crawford [sleepy]
+ *
  */
 using System;
 using System.IO;
